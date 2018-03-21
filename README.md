@@ -10,16 +10,26 @@ The directories can:
 * have transitive deps
 * implement executables
 * implement libraries
+* use different tags of same package as dependency
 
-##### Disclaimer
+    * see [uuid@1.2.0]()
+    * see [uuid@master]()
+
+#### Disclaimer
 
 The name of packages and directories are simply a bias given to me from the last TV series - ie. [lucifer](https://www.rottentomatoes.com/tv/lucifer) - I am watching.
 
-Nothing more.
+_Nothing more_.
 
-They are not intended to hurt anyone.
+_They are not intended to hurt anyone_.
 
 ## Installing
 
 1. Clone it
-2. Execute `dep ensure -v` in each subfolder
+
+2. Download deps of each subrepo
+
+    ```bash
+    for dir in */; do pushd $dir; dep ensure -v; popd; done
+    ```
+
