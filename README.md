@@ -12,8 +12,8 @@ The directories can:
 * implement libraries
 * use different tags of same package as dependency
 
-    * see [uuid@1.2.0]()
-    * see [uuid@master]()
+    * see [uuid@1.2.0](https://github.com/leodido/go-monorepo/blob/develop/amenadiel/Gopkg.lock#L18)
+    * see [uuid@master](https://github.com/leodido/go-monorepo/blob/develop/mazekeen/Gopkg.lock#L17)
 
 #### Disclaimer
 
