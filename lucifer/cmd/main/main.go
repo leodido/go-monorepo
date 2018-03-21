@@ -13,5 +13,5 @@ import (
 func main() {
 	rand.Seed(time.Now().UTC().UnixNano())
 	a := lucifer.Fights()
-	fmt.Fprintf(os.Stdout, "%s fights %s also if he is his %s", lucifer.GetName(), a.Name, amenadiel.RelationWithLucifer())
+	fmt.Fprintf(os.Stdout, "%s fights %s also if he is his %s\n", lucifer.GetName(), a.Name, amenadiel.RelationWithLucifer())
 }
